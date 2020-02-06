@@ -1,0 +1,18 @@
+﻿文件下载网址  =>  文件保存路径
+无法从以下标签捕获到背景链接：{
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    trigger: "click",
+	interTime:"5"*1000,
+    startFun: function(i) {
+        var curLi = jQuery(".fullSlide .bd li").eq(i);
+        if ( !! curLi.attr("_src")) {
+            curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+        }
+http://www.sxhaole.com/images/public/arr.png  =>  D:\桌面\夏克\www.sxhaole.com\images\arr.png
+http://www.sxhaole.com/images/common/widgets/ui-bg_flat_0_aaaaaa_40x100.png  =>  D:\桌面\夏克\www.sxhaole.com\images\ui-bg_flat_0_aaaaaa_40x100.png
+http://www.sxhaole.com/images/mbg.png  =>  D:\桌面\夏克\www.sxhaole.com\images\mbg.png
+http://www.sxhaole.com/images/public/arr_over.png  =>  D:\桌面\夏克\www.sxhaole.com\images\arr_over.png
